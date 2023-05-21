@@ -1,0 +1,136 @@
+$black-color: #222831;
+$gray-color: #393e46;
+$blue-color: #00adb5;
+$white-color: #eeeeee;
+
+.third-section {
+  position: relative;
+  padding: 20px 0 50px 0;
+  border: 3mm ridge $blue-color;
+  background-color: $gray-color;
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: $white-color;
+  }
+}
+
+.form__group {
+  background-color: $black-color;
+
+  label {
+    display: block;
+    color: $white-color;
+  }
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: $white-color;
+    border-bottom: 1px solid $blue-color;
+    background-color: $black-color;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+  }
+  textarea {
+    margin-bottom: 15px;
+  }
+}
+
+.contact {
+  background-color: $black-color;
+  box-shadow: 0 0 15px $white-color;
+
+  border: thick double #eeeeee;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row > .form__group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.form__submit {
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-left: 45%;
+  font-family: inherit;
+  background: $blue-color;
+  color: $white-color;
+  border: 1mm ridge $black-color;
+  cursor: pointer;
+  &:hover {
+    background-color: $black-color;
+    border: 1mm ridge $white-color;
+    color: $blue-color;
+  }
+}
+
+.down-footer {
+  width: 100%;
+  background-color: rgba($color: #030018, $alpha: 1);
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  color: $gray-color;
+}
+
+.icons {
+  position: absolute;
+  width: 5%;
+}
+.icons1 {
+  top: 5%;
+  left: 10%;
+}
+.icons2 {
+  top: 43%;
+  left: 3%;
+  rotate: 10deg;
+  width: 4%;
+}
+.icons3 {
+  left: 90%;
+  top: 75%;
+}
+.icons5 {
+  bottom: 5%;
+  left: 12%;
+  rotate: 10deg;
+}
+.icons6 {
+  top: 7%;
+  left: 94%;
+  width: 3%;
+}
+.icons4 {
+  top: 36%;
+  left: 86%;
+  width: 6%;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 6%;
+  right: 0%;
+  rotate: 270deg;
+  z-index: 150;
+}
+
+.scrollTop__img {
+  width: 60%;
+  opacity: 1;
+}
+
+.scrollTop__img_hide {
+  opacity: 0;
+}
